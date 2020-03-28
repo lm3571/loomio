@@ -17,6 +17,10 @@ fr:
     error:
       handle_must_begin_with_parent_handle: "Doit commencer par %{parent_handle}"
     stats:
+      group_stats: Statistiques 
+      org_stats: Organisation 
+      visits: Visites 
+      general: Général 
       members: Membres
       subgroups: Sous-groupes
       threads: Discussions
@@ -25,8 +29,12 @@ fr:
       polls: Sondages
       poll_types:
         proposal: Proposition
+        count: Compter 
+        choose: Choisir 
+        allocate: Allouer 
+        score: Pondérer 
         rank: Classer
-        time: Sondage horaire de réunion
+        time: Se rencontrer 
   user:
     deleted_user: "Utilisateur supprimé"
     placeholder_name: "Utilisateur invité (%{hostname})"
@@ -252,7 +260,7 @@ fr:
         * Pour notifier une personne spécifique, tapez @ suivi de son nom.
         * Cliquez sur l'icône du trombone pour ajouter des pièces jointes.
 
-        Si vous avez des questions, consultez le [Manuel d'aide Loomio] (http://help.loomio.org).
+#        Si vous avez des questions, consultez le [Manuel d'aide Loomio] (http://help.loomio.org).
   first_proposal:
     name: Proposition de démonstration
     description: |
@@ -544,7 +552,7 @@ fr:
         voted: '<strong>%{participant}</strong>:'
     ranked_choice:
       subject:
-        poll_created: '%{actor} a démarré un classement par préférence : %{title}'
+        poll_created: '%{actor}  a démarré un classement par préférence : %{title}'
         poll_edited: '%{actor} a modifié un classement par préférence : %{title}'
         poll_announced: '%{actor} vous a invité·e à classer des options dans : %{title}'
         poll_closing_soon: 'Le classement par préférence se termine dans 24 heures : %{title}'

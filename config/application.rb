@@ -45,15 +45,15 @@ module Loomio
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
-    # config.time_zone = 'Central Time (US & Canada)'
+    config.time_zone = 'Europe/Brussels'
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+    config.i18n.default_locale = :fr
 
     # config.i18n.available_locales = # --> don't use this, make mostly empty yml files e.g. fallback.be.yml
     config.i18n.enforce_available_locales = false
-    config.i18n.fallbacks = [:en] # --> see initilizers/loomio_i18n
+    config.i18n.fallbacks = [:fr,:en] # --> see initilizers/loomio_i18n
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -138,8 +138,9 @@ module Loomio
 
     # expecting something like wss://hostname/cable, defaults to wss://canonical_host/cable
     config.action_cable.url = ENV['ACTION_CABLE_URL'] if ENV['ACTION_CABLE_URL']
+    config.action_cable.allowed_request_origins = ENV['ALLOWED_REQUEST_ORIGINS'] if ENV['ALLOWED_REQUEST_ORIGINS'] 
 
-    config.action_cable.allowed_request_origins = [ENV['CANONICAL_HOST'], 'http://localhost:8080']
+#    config.action_cable.allowed_request_origins = [ENV['CANONICAL_HOST'], 'http://localhost:8080']
 
     if ENV['REDIS_CACHE_URL']
       config.cache_store = :redis_cache_store, { url: ENV['REDIS_CACHE_URL'] }

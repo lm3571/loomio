@@ -63,6 +63,7 @@ export default new class GroupService
           props:
             group: group
 
+###
     install_slack:
       name: 'install_slack.modal_title'
       icon: 'mdi-slack'
@@ -130,6 +131,8 @@ export default new class GroupService
           component: 'InstallSamlProviderModal'
           props:
             group: group
+
+###
 
     leave_group:
       name: 'group_page.options.leave_group'
