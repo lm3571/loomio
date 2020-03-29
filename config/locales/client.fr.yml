@@ -624,7 +624,7 @@ fr:
     announce_outcome_active: (Personne n'a encore été notifié de ce résultat)
     translate_outcome: Afficher une traduction automatique du résultat
     show_history: Montrer l’historique des modifications
-    edited: Modifié
+    edited: Modifications 
     pin_thread: Mettre en avant la discussion
     unpin_thread: Ne plus mettre en avant la discussion
     pin_event: 'Epingler dans la timeline '
@@ -2075,7 +2075,7 @@ fr:
     start_poll_now: Prendre une décision maintenant
   powered_by:
     slogan: De meilleures décisions ensemble
-    powered_by_loomio: Loomio
+    powered_by_loomio: Loomio Community
     privacy_policy: Confidentialité des données
     terms_of_service: Conditions d'utilisation
     front_page: Première page
