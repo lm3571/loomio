@@ -1963,7 +1963,7 @@ fr:
     name_required: Entrez un nom
     terms_required: Vous devez accepter les Conditions d'utilisation
     account_inactive: Oups, on dirait que le compte utilisateur lié à {{email}} a été désactivé !
-    privacy_notice: "Nous ne vendrons jamais vos données. <br><a href='{{privacyUrl}}' target='_blank'> Politique de confidentialité</a>"
+    privacy_notice: "Nous ne vendrons jamais vos données. <br><a href='{{privacyUrl}}' target='_blank'> Confidentialité des données</a>"
     welcome: Nouveau sur {{siteName}} ?
     welcome_back: Content de vous revoir, {{name}} !
     forgot_password: Mot de passe oublié
@@ -2076,7 +2076,7 @@ fr:
   powered_by:
     slogan: De meilleures décisions ensemble
     powered_by_loomio: Loomio
-    privacy_policy: Politique de confidentialité
+    privacy_policy: Confidentialité des données
     terms_of_service: Conditions d'utilisation
     front_page: Première page
   vue_upgraded_modal:
